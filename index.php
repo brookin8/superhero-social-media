@@ -39,10 +39,10 @@
 			<li class="mb-5">
 				<div class="profile">
 					<div class="row">
-						<div class="col-4">
+						<div class="col-4 col-xs-4">
 							<img class="img-fluid img-thumbnail mb-2 indexPic" src="<?=$hero['image_url']?>">
 						</div>
-						<div class="col-6 aboutCol">
+						<div class="col-6 aboutCol col-xs-6">
 							<div class="row">
 								<h2 class="mb-3 mt-4 name"><?=$hero['name']?></h2>
 							</div>
@@ -50,7 +50,7 @@
 								<p class="aboutMe"><?=$hero['about_me']?></p>
 							</div>
 						</div>
-						<div class="col-2 buttonCol">
+						<div class="col-2 buttonCol col-xs-2">
 							<a href="/components/<?=$hero['id']?>.php"><button class="btn btn-primary profileButton mt-5">View Profile</button></a>
 						</div>
 					</div>

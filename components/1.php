@@ -121,21 +121,21 @@
 					<div class="row mt-3">
 						<h3 class="profileText"><span class="miniHeader">Abilties: </span>
 							<?php foreach(getAbilities() as $ability) { ?>
-								- <?=$ability['ability']?> -
+								- <?=$ability['ability']?>
 							<?php } ?>
 						</h3>
 					</div>
 					<div class="row mt-3">
 						<h3 class="profileText"><span class="miniHeader">Allies: </span>
 							<?php foreach(getAllies2() as $ally2) { ?>
-								- <a class="allyProfiles" href="<?=$ally2[hero1_id]?>.php"><?=$ally2['name']?></a> -
+								- <a class="allyProfiles" href="<?=$ally2[hero1_id]?>.php"><?=$ally2['name']?></a> 
 							<?php } ?>
 						</h3>
 					</div>
 					<div class="row mt-3 mb-3">
 						<h3 class="profileText"><span class="miniHeader">Enemies: </span>
 							<?php foreach(getEnemies2() as $enemy2) { ?>
-								- <a class="enemyProfiles" href="<?=$enemy2[hero1_id]?>.php"><?=$enemy2['name']?></a> -
+								- <a class="enemyProfiles" href="<?=$enemy2[hero1_id]?>.php"><?=$enemy2['name']?></a>
 							<?php } ?>
 						</h3>
 					</div>

@@ -10,7 +10,7 @@ ul li {
 	width:200px;
 	height:200px;
 	object-fit: cover;
-	margin-left: 20%;
+	/*margin-left: 20%;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -42,9 +42,10 @@ hr {
 .profile {
 	background-color:white;
 	border:5px solid #DC4227;
-	padding-top:20px;
-	padding-bottom:15px;
+	padding-top:3%;
+	padding-bottom:3%;
 	padding-right:3%;
+	padding-left:3%;
 }
 
 .allyProfiles:hover {
@@ -69,6 +70,7 @@ hr {
 
 .profileButton {
 	margin-left:0;
+	white-space: normal !important;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -127,7 +129,7 @@ hr {
 	padding-left:0%;
 }
 .aboutCol {
-	padding-right:2%;
+	padding-right:1%;
 }
 
 .aboutMe {
