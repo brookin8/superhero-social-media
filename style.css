@@ -1,0 +1,158 @@
+body {
+	background-color: #92D1D1;
+}
+
+ul li {
+	list-style:none;
+}
+
+.indexPic {
+	width:200px;
+	height:200px;
+	object-fit: cover;
+	margin-left: 20%;
+}
+
+.indexList {
+
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+
+hr {
+	size: 10px;
+}
+
+.line {
+	height:30px;
+	width: 100px;
+}
+
+
+.indexAlign {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+
+.profile {
+	background-color:white;
+	border:5px solid #DC4227;
+	padding-top:20px;
+	padding-bottom:15px;
+}
+
+.homeLink {
+	color:black;
+	font-size:140%;
+	font-family: 'Bangers', cursive;
+}
+
+.indexLeft {
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+
+.profileButton {
+	margin-left:0;
+}
+
+.heading {
+	font-family: 'Bangers', cursive;
+	font-size:600%;
+	color:#DC4227;
+	text-shadow: 
+   		-4px -4px 0 #FDF105,  
+    	4px -4px 0 #FDF105,
+    	-4px 4px 0 #FDF105,
+     	4px 4px 0 #FDF105,
+     	6px 6px 0 #9F000F;
+}
+
+.name {
+	font-size: 200%;
+	font-family: 'Bangers', cursive;
+}
+
+.profileName {
+	font-size: 600%;
+	font-family: 'Bangers', cursive;
+	color:white;
+	text-shadow: 
+   		-4px -4px 0 black,  
+    	4px -4px 0 black,
+    	-4px 4px 0 black,
+     	4px 4px 0 black,
+     	6px 6px 0 black;
+}
+
+.profilePic {
+	width:400px;
+	height:400px;
+	object-fit: cover;
+	border:solid 5px black;
+}
+
+.subheading {
+	font-family: 'Bangers', cursive;
+	font-size:300%;
+	color:white;
+	text-shadow: 
+   		-4px -4px 0 black,  
+    	4px -4px 0 black,
+    	-4px 4px 0 black,
+     	4px 4px 0 black;
+ 
+}
+
+.aboutMe {
+	font-family: 'Oswald', sans-serif;
+	font-size: 120%;
+}
+
+.profileText {
+	font-family: 'Oswald', sans-serif;
+	font-size: 120%;
+}
+
+.infoCol {
+	padding-top:5%;
+
+}
+
+.infoColBackground {
+	background-color:white;
+	border: solid 5px black;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.bio {
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 120%;
+
+}
+
+.miniHeader {
+	font-family: 'Oswald', sans-serif;
+	font-size:130%;
+	font-weight:bold;
+}
+
+.profileLogo {
+	font-family: 'Bangers', cursive;
+	font-size:250%;
+	color:#DC4227;
+	text-shadow: 
+   		-2px -2px 0 #FDF105,  
+    	2px -2px 0 #FDF105,
+    	-2px 2px 0 #FDF105,
+     	2px 2px 0 #FDF105,
+     	3px 3px 0 #9F000F;
+
+}
