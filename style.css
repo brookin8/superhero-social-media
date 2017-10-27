@@ -42,13 +42,9 @@ hr {
 	border:5px solid #DC4227;
 	padding-top:20px;
 	padding-bottom:15px;
+	padding-right:3%;
 }
 
-.homeLink {
-	color:black;
-	font-size:140%;
-	font-family: 'Bangers', cursive;
-}
 
 .indexLeft {
 	text-align:left;
@@ -109,9 +105,18 @@ hr {
  
 }
 
+.buttonCol {
+	padding-top:3%;
+	padding-left:0%;
+}
+.aboutCol {
+	padding-right:2%;
+}
+
 .aboutMe {
 	font-family: 'Oswald', sans-serif;
 	font-size: 120%;
+	margin-right:2%;
 }
 
 .profileText {

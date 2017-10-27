@@ -18,10 +18,7 @@
 
 <div class="row">
 	<div class="mr-5">
-		<h4 class="profileLogo mt-4">Hero-Book</h4>
-	</div>
-	<div class="text-right float-right mt-4">
-		<a class="homeLink" href="./../index.php">Home</a>
+		<a class="homeLink" href="./../index.php"><h4 class="profileLogo mt-4">Hero-Book</h4></a>
 	</div>
 </div>
 
