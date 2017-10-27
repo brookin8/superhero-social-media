@@ -11,6 +11,8 @@ ul li {
 	height:200px;
 	object-fit: cover;
 	margin-left: 20%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .indexList {
@@ -45,6 +47,18 @@ hr {
 	padding-right:3%;
 }
 
+.allyProfiles:hover {
+	text-decoration:none;
+}
+
+.enemyProfiles {
+	color:#DC4227;
+}
+
+.enemyProfiles:hover {
+	text-decoration: none;
+	color:#9F000F;
+}
 
 .indexLeft {
 	text-align:left;
@@ -55,6 +69,7 @@ hr {
 
 .profileButton {
 	margin-left:0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .heading {
@@ -90,7 +105,9 @@ hr {
 	width:400px;
 	height:400px;
 	object-fit: cover;
-	border:solid 5px black;
+	border:solid 3px #404040;
+	border-radius:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .subheading {
@@ -120,28 +137,45 @@ hr {
 }
 
 .profileText {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 120%;
 }
 
-.infoCol {
-	padding-top:5%;
-
-}
 
 .infoColBackground {
 	background-color:white;
-	border: solid 5px black;
-	padding-left:5%;
-	padding-right:5%;
+/*	border: solid 3px grey;*/
+	padding-left:6%;
+	padding-right:4%;
+	padding-top:1%;
+	padding-bottom:1%;
+	border-radius:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.bio {
+.imageCenter {
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-	font-family: 'Oswald', sans-serif;
+.centerInfo {
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.bioCol {
+	width:80%;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 120%;
-
+	/*border: solid 3px grey;*/
+	padding:2%;
+	background-color:white;
+	border-radius:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .miniHeader {
 	font-family: 'Oswald', sans-serif;

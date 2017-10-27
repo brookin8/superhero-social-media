@@ -4,7 +4,7 @@
 	<title>Mental Mary</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Bangers|Oswald" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -106,44 +106,52 @@
 <?php foreach(getHero() as $hero) { ?>
 
 	<div class="row mt-4">
-		<div class="col">
+		<div class="imageCenter">
 			<img class="profilePic img-responsive img-thumbnail" src="<?=$hero['image_url']?>">
 		</div>
-		<div class="col infoCol">
+	</div>
+
+	
+	<div class="row mt-3">
+		<div class="col-6">
 			<div class="infoColBackground">
-			<div class="row mt-4">
-				<h3 class="profileText"><span class="miniHeader">About Me: </span><?=$hero['about_me']?></h3>
-			</div>
-			<div class="row mt-4">
+				<div class="row mt-3">
+					<h3 class="profileText"><span class="miniHeader">About Me: </span><?=$hero['about_me']?></h3>
+				</div>
+			<div class="row mt-3">
 				<h3 class="profileText"><span class="miniHeader">Abilties: </span>
 					<?php foreach(getAbilities() as $ability) { ?>
 						- <?=$ability['ability']?> -
 					<?php } ?>
 				</h3>
 			</div>
-			<div class="row mt-4">
+			<div class="row mt-3">
 				<h3 class="profileText"><span class="miniHeader">Allies: </span>
 					<?php foreach(getAllies2() as $ally2) { ?>
-						- <?=$ally2['name']?> -
+						- <a class="allyProfiles" href="<?=$ally2[hero1_id]?>.php"><?=$ally2['name']?></a> -
 					<?php } ?>
 				</h3>
 			</div>
-			<div class="row mt-4 mb-4">
+			<div class="row mt-3 mb-3">
 				<h3 class="profileText"><span class="miniHeader">Enemies: </span>
 					<?php foreach(getEnemies1() as $enemy1) { ?>
-						- <?=$enemy1['name']?> -
+						- <a class="enemyProfiles" href="<?=$enemy1[hero2_id]?>.php"><?=$enemy1['name']?></a> -
 					<?php } ?>
 					<?php foreach(getEnemies2() as $enemy2) { ?>
-						- <?=$enemy2['name']?> -
+						- <a class="enemyProfiles" href="<?=$enemy2[hero1_id]?>.php"><?=$enemy2['name']?></a> -
 					<?php } ?>
 				</h3>
-			</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="row mt-4 bio ml-2 mr-2 mb-4">
-		<?=$hero['biography']?>
+	<div class="col-6">
+		<div class="row bio mb-4">
+			<div class="col bioCol">
+				<h4 class="miniHeader">Bio:</h4>
+					<?=$hero['biography']?>
+			</div>
+		</div>
+	</div>
 	</div>
 
 <?php } ?>

@@ -2,9 +2,9 @@
 
 	function getDb() {
 
-		if(file_exists('.env')) {
-			require __DIR__. '/vendor/autoload.php';
-			$dotenv = new Dotenv\Dotenv(__DIR__);
+		if(file_exists($_SERVER['DOCUMENT_ROOT'].'/.env')) {
+			require ($_SERVER['DOCUMENT_ROOT']. '/vendor/autoload.php');
+			$dotenv = new Dotenv\Dotenv($_SERVER['DOCUMENT_ROOT']);
 			$dotenv->load();
 		}
 
