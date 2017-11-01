@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	<?php include('./header.php'); ?>
 	<title>Hero-book</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Bangers|Oswald" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body class="container">
 
 	<h1 class="text-center mt-4 heading">Hero-Book</h1>
@@ -51,7 +42,7 @@
 							</div>
 						</div>
 						<div class="col-2 buttonCol col-xs-2">
-							<a href="/components/<?=$hero['id']?>.php"><button class="btn btn-primary profileButton mt-5">View Profile</button></a>
+							<a href="profile.php?id=<?=$hero['id']?>"><button class="btn btn-primary profileButton mt-5">View Profile</button></a>
 						</div>
 					</div>
 				</div>
